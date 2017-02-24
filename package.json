@@ -20,4 +20,8 @@
     "twit": "^2.2.5",
     "unfluff": "^1.1.0"
   }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codelinde/canterbury-tweets"
+  }
 }
