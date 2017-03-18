@@ -1,7 +1,8 @@
 module.exports = [
     'https://en.wikisource.org/wiki/The_Canterbury_Tales/General_Prologue',
     'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Knight%27s_Tale',
-    'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Miller%27s_Prologue_and_Tale',
+    // a contributor on WikiSource added modernization for each couplet, which makes it impossible to use this portion
+    // 'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Miller%27s_Prologue_and_Tale',
     'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Reeve%27s_Prologue_and_Tale',
     'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Cook%27s_Prologue_and_Tale',
     'https://en.wikisource.org/wiki/The_Canterbury_Tales/The_Man_of_Law%27s_Prologue_and_Tale',
