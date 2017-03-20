@@ -81,7 +81,8 @@ function runTweet() {
 
                 function tweeted(err, data, response) {
                     if(err) {
-                        console.log("Something went wrong");
+                        console.log("Something went wrong--trying again");
+                        runTweet();
                     }
                     else {
                         console.log("Tweet successful!");
