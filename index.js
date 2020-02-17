@@ -1,8 +1,9 @@
 // Import Wikisource page URLs for different sections of the Canterbury Tales
-var pages = require('./pages');
+// var pages = require('./pages'); --No longer needed in new version
 
 // Randomize URL from imported pages
-var randomUrl = pages[Math.floor(Math.random() * pages.length)];
+// var randomUrl = pages[Math.floor(Math.random() * pages.length)];
+// No longer needed thanks to new text.
 
 // npm dependencies
 var request = require('request');
@@ -26,9 +27,9 @@ runTweet();
 // Set interval for automatic Tweet (once an hour)
 setInterval(runTweet, 1000*60*60);
 
-// Scrape the page 
+// Scrape the page --this page is now self hosted
 function runTweet() {
-    request(randomUrl, function (error, response, body) {
+    request('https://codelinde.github.com/canterbury-twts/text.html', function (error, response, body) {
 
     if (!error && response.statusCode == 200) {
 
@@ -53,7 +54,7 @@ function runTweet() {
             var filtered = textDump.filter(function(entry) { return entry.trim() != ''; });
 
             // Remove first six elements in case title is included in output
-            filtered.splice(0, 6);
+            // filtered.splice(0, 6); --Not needed in new version of text
 
             // Generate random number between 1 and length of filtered
             var randLine = Math.floor(Math.random() * filtered.length);
@@ -76,6 +77,8 @@ function runTweet() {
                 var tweet = {
                     status: filtered[randLine] + "\r\n" + filtered[randLine+1] + "\r\n#canterburytales"
                 }
+
+                console.log(tweet);
 
                 account.post('statuses/update', tweet, tweeted);
 
