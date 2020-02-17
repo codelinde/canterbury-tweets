@@ -29,7 +29,7 @@ setInterval(runTweet, 1000*60*60);
 
 // Scrape the page --this page is now self hosted
 function runTweet() {
-    request('https://codelinde.github.com/canterbury-twts/text.html', function (error, response, body) {
+    request('https://raw.githubusercontent.com/codelinde/canterbury-tweets/chaucers-retraction/text.html', function (error, response, body) {
 
     if (!error && response.statusCode == 200) {
 
