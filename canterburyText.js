@@ -13632,6 +13632,7 @@ module.exports = [
     'That, in His mercy, God all merciful',
     'Grant us great mercy, and never vary,',
     'In reverence for his mother Mary. Amen.',
+    // DIFFERENT METER
     'When told was all this miracle, every man',
     'Was sobered so, it was a sight to see;',
     'Until our Host to jest again began,',
@@ -14482,7 +14483,6 @@ module.exports = [
     'May read the great poet of Italy',
     'Dante, that is, for he did it devise',
     'Point by point; and every word there see.',
-    'Nero',
     'Although this Nero was as vicious',
     'As any fiend that is beneath the ground,',
     'Yet he, as so says Suetonius,',
