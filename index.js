@@ -78,7 +78,11 @@ function runTweet() {
             function tweetIt() {
 
                 var tweet = {
-                    status: canterburyText[randLine] + "\r\n" + canterburyText[randLine+1] + "\r\n#canterburytales"
+                    status: canterburyText[randLine] + "\r\n" 
+                   + canterburyText[randLine+1] 
+                   + canterburyText[randLine+2] 
+                   + canterburyText[randLine+3] 
+                   + "\r\n#canterburytales"
                 }
 
                 console.log(tweet);
