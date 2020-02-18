@@ -1,4 +1,4 @@
-const canterburyText = [
+module.exports = [
     'When that April with his showers sweet',
     'The drought of March has pierced root deep,',
     'And bathed each vein with liquor of such power',
