@@ -16,11 +16,7 @@
   "author": "Ryan Linde",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
-    "line-by-line": "^0.1.6",
-    "request": "^2.88.2",
-    "twit": "^2.2.11",
-    "unfluff": "^1.1.0"
+    "twit": "^2.2.11"
   },
   "repository": {
     "type": "git",
