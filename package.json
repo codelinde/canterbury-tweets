@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A bot that tweets a random couplet from the Canterbury Tales every hour. ",
   "main": "index.js",
+  "typings": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +16,7 @@
   "author": "Ryan Linde",
   "license": "MIT",
   "dependencies": {
-    "line-by-line": "^0.1.5",
-    "request": "^2.79.0",
-    "twit": "^2.2.5",
-    "unfluff": "^1.1.0"
+    "twit": "^2.2.11"
   },
   "repository": {
     "type": "git",
