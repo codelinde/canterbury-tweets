@@ -1,3 +1,5 @@
+**NOTICE:** Obviously this no longer works since I can't afford to make API calls to Twitter.
+
 # Canterbury Tweets
 
 A [Node.js](https://github.com/nodejs/node) bot living on [Heroku](http://heroku.com) that tweets ~two~ four lines from Geoffrey Chaucer's classic, the Canterbury Tales, every hour, to [this account](http://twitter.com/canterburytwts).
